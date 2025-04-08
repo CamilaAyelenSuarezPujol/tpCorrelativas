@@ -24,7 +24,4 @@ public class Alumno {
         return materiasAprobadas.contains(materia);
     }
 
-    public void agregarMateriaAprobada(Materia materia) {
-        materiasAprobadas.add(materia);
-    }
 }
