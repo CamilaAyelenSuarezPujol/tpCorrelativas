@@ -6,10 +6,9 @@ import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 @Getter
-@Setter
 
 public class Alumno {
-    private String nombre;
+    @Setter private String nombre;
     private List<Materia> materiasAprobadas;
 
     //cuando tengo una coleccion, hay que inicializarla

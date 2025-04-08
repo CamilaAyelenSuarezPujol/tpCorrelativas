@@ -7,10 +7,9 @@ import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 @Getter
-@Setter
 
 public class Inscripcion {
-    private Alumno alumno;
+    @Setter private Alumno alumno;
     private List<Materia> materiasAInscribir;
 
     // constructor para inicializar lista

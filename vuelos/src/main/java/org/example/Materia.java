@@ -7,10 +7,9 @@ import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 @Getter
-@Setter
 
 public class Materia {
-    private String nombre;
+    @Setter private String nombre;
     private List<Materia> correlativas; //materias correlativas
 
     // inicializo la lista con constructor
